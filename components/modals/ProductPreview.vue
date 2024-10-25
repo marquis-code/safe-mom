@@ -122,21 +122,6 @@ const handlePayNow = async (data: any) => {
     handlePayment(data)
 //   await triggerPayment();
 };
-// const paymentOptions: PaymentOption[] = [
-//     { id: 'cash', name: 'Pay with cash', icon: cashPayment },
-//     { id: 'transfer', name: 'Pay with Transfer', icon: transferPayment },
-// ]
-
-// const selectedOption = ref<string>(paymentOptions[0].id)
-// const submitPaymentOption = () => {
-//     handleCart({
-//         type: selectedOption.value
-//     })
-// }
-// const paymentMethod = ref('card')wqs
-
-// const purchaseStep = ref('product-details')
-
 const productCount = ref(1)
 const productSize = ref('S')
 
